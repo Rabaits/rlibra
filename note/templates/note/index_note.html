@@ -1,0 +1,6 @@
+{% extends 'note/bas.html'%}
+
+{% block body%} 
+    {% include 'note/blocks/note_text.html' with name_note=noteid.name data_note=noteid.data brief_note=noteid.name text_note=noteid.text %}
+{% endblock%}
+

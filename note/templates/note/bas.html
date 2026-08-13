@@ -1,0 +1,29 @@
+{% load static %} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/stile.css' %}">
+    <title>library</title>
+    
+
+</head>
+<body>
+    <div class="haeds">
+        <img src="{% static 'images/head.png' %}" alt="ТВОЙ ЭЛЬФ">
+    </div>
+
+    {% block body%} {% endblock%}
+
+    <div class="notes">
+        {% block note%} {% endblock%}
+    </div>
+
+    <div class="down"> 
+        <img src="{% static 'images/sign.png' %}" alt="RAIBAIT">
+    </div>
+
+</body>
+</html>
+

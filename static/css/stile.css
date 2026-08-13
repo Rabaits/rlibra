@@ -1,0 +1,158 @@
+body {
+    position: relative; 
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;     
+    margin: 0;  
+    flex-direction: column;
+    min-height: 100vh;
+}
+.haeds {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    height: 100px; 
+}
+.haeds img {
+
+    image-rendering: pixelated;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+ 
+    background-color: rgb(255, 255, 255);
+    gap: 8%;
+    padding:4.5%;
+    
+    width: 700px;
+    margin-bottom: 0px;   
+}
+.menu h1 {
+    text-align: center;    
+    margin: 0;             
+}
+.menu p {
+    margin: 0;             
+}
+.but{
+    width: 120px; 
+    height: 30px;     
+}
+.menu .but, .note .but{
+    background-color: rgb(223, 141, 236);
+    margin: 10px 0px; 
+}
+
+.create_note .but, .note_text .but{
+    background-color: rgb(5, 5, 5);
+    margin: -35px -35px; 
+}
+a {text-decoration: none;}
+
+.note {
+    display: flex;
+    flex-direction: column;
+ 
+    background-color: rgb(255, 255, 255);
+    gap: 8%;
+    padding:4.5%;
+    
+    width: 700px;
+    margin-bottom: 100px;   
+    margin: 30px 0px; 
+
+}
+.note h2{
+    margin: 15px 0px; 
+}
+.note p{
+    margin: 2px 0px; 
+}
+.note .data{
+    color: rgb(223, 141, 236); 
+}
+
+.note_text {
+    display: flex;
+    flex-direction: column;
+ 
+    background-color: rgb(255, 255, 255);
+    gap: 2%;
+    padding:2.5%;
+    
+    width: 700px;
+    height: auto;
+
+    margin-bottom: 200px;   
+}
+.note_text h1{
+    text-align: center;    
+    margin: 20px 0px;   
+
+}
+.note_text p, .note_text h3{
+    margin: 3px 0px;   
+}
+.note_text .data{
+    color: rgb(223, 141, 236);  
+}
+.create_note {
+    display: flex;
+    flex-direction: column;
+ 
+    background-color: rgb(255, 255, 255);
+    gap: 8%;
+    padding:2.5%;
+    
+    width: 700px;
+    margin-bottom: 100px;   
+}
+
+
+.create_note h1 {
+    text-align: center;    
+    margin: 20px 0px;          
+}
+
+.note-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+.note-form .sabmit {
+    
+    background-color: rgb(223, 141, 236);
+    margin: 10px;
+     width: 120px; 
+    height: 30px; 
+}
+.note-actions {
+    display: flex;
+    align-items: center;  
+    width: 600px; 
+  
+}
+
+
+.down {
+    position: absolute;      
+    bottom: 0;              
+    left: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+    width: 98%; 
+    height: 20px; 
+    margin: -50px  0px;
+
+}
+.down img   {
+
+    image-rendering: pixelated;
+}
+

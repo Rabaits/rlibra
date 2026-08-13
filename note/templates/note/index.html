@@ -1,0 +1,11 @@
+{% extends 'note/bas.html'%}
+
+{% block body%} 
+    {% include 'note/blocks/menu.html' %}
+{% endblock%}
+
+{% block note%} 
+        {% for noteIsdata in data%}
+            {% include 'note/blocks/note.html' with name_note=noteIsdata.name data_note=noteIsdata.data brief_note=noteIsdata.name id_note=noteIsdata.id%}
+        {% endfor %}
+{% endblock%}

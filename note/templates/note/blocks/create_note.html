@@ -1,0 +1,15 @@
+<div class="create_note">
+
+    <button class="but"> <a href="{% url 'home'%}"> HOME</a></button>
+    <h1>_CREATE NOTE_</h1>
+
+    <form method="post" class="note-form">
+        {% csrf_token%}
+        
+        <textarea class="note-actions" name="name" id="NameNote" placeholder="name note:" rows="1"></textarea>
+        <textarea class="note-actions" name="brief" id="BriefNote" placeholder="brief note:" rows="5"></textarea>
+        <textarea class="note-actions" name="text" id="NoteText" placeholder="text note:" rows="25"></textarea>
+        <button class="sabmit">SAVE NOTE</button>
+    </form>
+
+</div>
